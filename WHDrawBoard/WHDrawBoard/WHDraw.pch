@@ -1,0 +1,31 @@
+//
+//  WHDraw.pch
+//  WHDrawBoard
+//
+//  Created by wang on 2017/10/12.
+//  Copyright © 2017年 wang. All rights reserved.
+//
+
+#ifndef WHDraw_pch
+#define WHDraw_pch
+
+#import <POP.h>
+#import <Masonry.h>
+#import "WHTool.h"
+#import "UIView+WHToast.h"
+
+//设置format
+#define FORMAT(f, ...)      [NSString stringWithFormat:f, ## __VA_ARGS__]
+
+
+#define  ViewHeight [[UIScreen mainScreen] bounds].size.height
+#define  ViewWidth [[UIScreen mainScreen] bounds].size.width
+
+#define WHWeakSelf(self) autoreleasepool{} __weak typeof(self) Weak##self = self;
+#define WHStrongObj(self) autoreleasepool{} __strong typeof(self) Strong##self = Weak##self;
+
+#define WHRGBColor(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+#define WHFont(a) (([[[UIDevice currentDevice] systemVersion] floatValue] >=9.0)? ([UIFont fontWithName:@"PingFangSC-Regular" size:a]):([UIFont fontWithName:@".PingFang-SC-Light" size:a]))
+
+#endif /* WHDraw_pch */

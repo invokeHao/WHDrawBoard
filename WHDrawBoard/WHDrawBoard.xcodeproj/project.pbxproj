@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A8DFC75A9BD3226F60499A8 /* libPods-WHDrawBoard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 565A3B22C8ADEFA15A5DE7D5 /* libPods-WHDrawBoard.a */; };
+		210AD0EF1F45A43D00CDC84B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 210AD0EE1F45A43D00CDC84B /* main.m */; };
+		210AD0F21F45A43D00CDC84B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 210AD0F11F45A43D00CDC84B /* AppDelegate.m */; };
+		210AD0F81F45A43D00CDC84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210AD0F61F45A43D00CDC84B /* Main.storyboard */; };
+		210AD0FA1F45A43D00CDC84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210AD0F91F45A43D00CDC84B /* Assets.xcassets */; };
+		210AD0FD1F45A43D00CDC84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210AD0FB1F45A43D00CDC84B /* LaunchScreen.storyboard */; };
+		21BA86911F8F18BB0061FE47 /* WHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86901F8F18BB0061FE47 /* WHMainViewController.m */; };
+		21BA86941F8F196E0061FE47 /* WHDrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86931F8F196E0061FE47 /* WHDrawModel.m */; };
+		21BA86971F8F19B00061FE47 /* WHDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86961F8F19B00061FE47 /* WHDrawView.m */; };
+		21BA869A1F8F1A1D0061FE47 /* WHTopFuntionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86991F8F1A1D0061FE47 /* WHTopFuntionView.m */; };
+		21BA869D1F8F34BD0061FE47 /* WHLineWidthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA869C1F8F34BD0061FE47 /* WHLineWidthView.m */; };
+		21BA86A01F8F37B50061FE47 /* WHLIneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA869F1F8F37B50061FE47 /* WHLIneView.m */; };
+		21BA86A31F8F4FA40061FE47 /* WHLineColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86A21F8F4FA40061FE47 /* WHLineColorView.m */; };
+		21BA86A61F8F50040061FE47 /* WHColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86A51F8F50040061FE47 /* WHColorView.m */; };
+		21BA86AA1F8F6B910061FE47 /* WHPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86A91F8F6B910061FE47 /* WHPickView.m */; };
+		21BA86AC1F8F6ECF0061FE47 /* drawTitle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21BA86AB1F8F6ECF0061FE47 /* drawTitle.plist */; };
+		21BA86AF1F8F7B7C0061FE47 /* WHTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86AE1F8F7B7C0061FE47 /* WHTool.m */; };
+		21BA86B21F90A1FC0061FE47 /* WHTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86B11F90A1FC0061FE47 /* WHTitleModel.m */; };
+		21BA86B51F90B2C90061FE47 /* UIView+WHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86B41F90B2C90061FE47 /* UIView+WHToast.m */; };
+		21BA86B81F90B9350061FE47 /* WHResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BA86B71F90B9350061FE47 /* WHResultView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		210AD0EA1F45A43D00CDC84B /* WHDrawBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHDrawBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		210AD0EE1F45A43D00CDC84B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		210AD0F01F45A43D00CDC84B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		210AD0F11F45A43D00CDC84B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		210AD0F71F45A43D00CDC84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		210AD0F91F45A43D00CDC84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		210AD0FC1F45A43D00CDC84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		210AD0FE1F45A43D00CDC84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BA867F1F8F076A0061FE47 /* WHDraw.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHDraw.pch; sourceTree = "<group>"; };
+		21BA868F1F8F18BB0061FE47 /* WHMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHMainViewController.h; sourceTree = "<group>"; };
+		21BA86901F8F18BB0061FE47 /* WHMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHMainViewController.m; sourceTree = "<group>"; };
+		21BA86921F8F196E0061FE47 /* WHDrawModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHDrawModel.h; sourceTree = "<group>"; };
+		21BA86931F8F196E0061FE47 /* WHDrawModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHDrawModel.m; sourceTree = "<group>"; };
+		21BA86951F8F19B00061FE47 /* WHDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHDrawView.h; sourceTree = "<group>"; };
+		21BA86961F8F19B00061FE47 /* WHDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHDrawView.m; sourceTree = "<group>"; };
+		21BA86981F8F1A1D0061FE47 /* WHTopFuntionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHTopFuntionView.h; sourceTree = "<group>"; };
+		21BA86991F8F1A1D0061FE47 /* WHTopFuntionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHTopFuntionView.m; sourceTree = "<group>"; };
+		21BA869B1F8F34BC0061FE47 /* WHLineWidthView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHLineWidthView.h; sourceTree = "<group>"; };
+		21BA869C1F8F34BD0061FE47 /* WHLineWidthView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHLineWidthView.m; sourceTree = "<group>"; };
+		21BA869E1F8F37B50061FE47 /* WHLIneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHLIneView.h; sourceTree = "<group>"; };
+		21BA869F1F8F37B50061FE47 /* WHLIneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHLIneView.m; sourceTree = "<group>"; };
+		21BA86A11F8F4FA40061FE47 /* WHLineColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHLineColorView.h; sourceTree = "<group>"; };
+		21BA86A21F8F4FA40061FE47 /* WHLineColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHLineColorView.m; sourceTree = "<group>"; };
+		21BA86A41F8F50040061FE47 /* WHColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHColorView.h; sourceTree = "<group>"; };
+		21BA86A51F8F50040061FE47 /* WHColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHColorView.m; sourceTree = "<group>"; };
+		21BA86A81F8F6B910061FE47 /* WHPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHPickView.h; sourceTree = "<group>"; };
+		21BA86A91F8F6B910061FE47 /* WHPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHPickView.m; sourceTree = "<group>"; };
+		21BA86AB1F8F6ECF0061FE47 /* drawTitle.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = drawTitle.plist; sourceTree = "<group>"; };
+		21BA86AD1F8F7B7C0061FE47 /* WHTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHTool.h; sourceTree = "<group>"; };
+		21BA86AE1F8F7B7C0061FE47 /* WHTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHTool.m; sourceTree = "<group>"; };
+		21BA86B01F90A1FC0061FE47 /* WHTitleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHTitleModel.h; sourceTree = "<group>"; };
+		21BA86B11F90A1FC0061FE47 /* WHTitleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHTitleModel.m; sourceTree = "<group>"; };
+		21BA86B31F90B2C80061FE47 /* UIView+WHToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WHToast.h"; sourceTree = "<group>"; };
+		21BA86B41F90B2C90061FE47 /* UIView+WHToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WHToast.m"; sourceTree = "<group>"; };
+		21BA86B61F90B9350061FE47 /* WHResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHResultView.h; sourceTree = "<group>"; };
+		21BA86B71F90B9350061FE47 /* WHResultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHResultView.m; sourceTree = "<group>"; };
+		565A3B22C8ADEFA15A5DE7D5 /* libPods-WHDrawBoard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WHDrawBoard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE7F829DF38902036ADA7BC /* Pods-WHDrawBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHDrawBoard.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHDrawBoard/Pods-WHDrawBoard.release.xcconfig"; sourceTree = "<group>"; };
+		EB7B598993A4325C323D6A4E /* Pods-WHDrawBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHDrawBoard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHDrawBoard/Pods-WHDrawBoard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210AD0E71F45A43D00CDC84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8DFC75A9BD3226F60499A8 /* libPods-WHDrawBoard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2065AEE76669968FB317241F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB7B598993A4325C323D6A4E /* Pods-WHDrawBoard.debug.xcconfig */,
+				AEE7F829DF38902036ADA7BC /* Pods-WHDrawBoard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		210AD0E11F45A43D00CDC84B = {
+			isa = PBXGroup;
+			children = (
+				21BA86AB1F8F6ECF0061FE47 /* drawTitle.plist */,
+				210AD0EC1F45A43D00CDC84B /* WHDrawBoard */,
+				210AD0EB1F45A43D00CDC84B /* Products */,
+				2065AEE76669968FB317241F /* Pods */,
+				B8B3689F915C5852119D81ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		210AD0EB1F45A43D00CDC84B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210AD0EA1F45A43D00CDC84B /* WHDrawBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210AD0EC1F45A43D00CDC84B /* WHDrawBoard */ = {
+			isa = PBXGroup;
+			children = (
+				21BA86A71F8F6B6A0061FE47 /* 工具类 */,
+				21BA86801F8F15A20061FE47 /* 画图功能 */,
+				210AD0F01F45A43D00CDC84B /* AppDelegate.h */,
+				210AD0F11F45A43D00CDC84B /* AppDelegate.m */,
+				210AD0F61F45A43D00CDC84B /* Main.storyboard */,
+				210AD0F91F45A43D00CDC84B /* Assets.xcassets */,
+				210AD0FB1F45A43D00CDC84B /* LaunchScreen.storyboard */,
+				210AD0FE1F45A43D00CDC84B /* Info.plist */,
+				21BA867F1F8F076A0061FE47 /* WHDraw.pch */,
+				210AD0ED1F45A43D00CDC84B /* Supporting Files */,
+			);
+			path = WHDrawBoard;
+			sourceTree = "<group>";
+		};
+		210AD0ED1F45A43D00CDC84B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				210AD0EE1F45A43D00CDC84B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21BA86801F8F15A20061FE47 /* 画图功能 */ = {
+			isa = PBXGroup;
+			children = (
+				21BA86811F8F15A20061FE47 /* Controller */,
+				21BA86841F8F15A20061FE47 /* Models */,
+				21BA86871F8F15A20061FE47 /* Views */,
+			);
+			path = "画图功能";
+			sourceTree = "<group>";
+		};
+		21BA86811F8F15A20061FE47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21BA868F1F8F18BB0061FE47 /* WHMainViewController.h */,
+				21BA86901F8F18BB0061FE47 /* WHMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21BA86841F8F15A20061FE47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21BA86921F8F196E0061FE47 /* WHDrawModel.h */,
+				21BA86931F8F196E0061FE47 /* WHDrawModel.m */,
+				21BA86B01F90A1FC0061FE47 /* WHTitleModel.h */,
+				21BA86B11F90A1FC0061FE47 /* WHTitleModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21BA86871F8F15A20061FE47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21BA86951F8F19B00061FE47 /* WHDrawView.h */,
+				21BA86961F8F19B00061FE47 /* WHDrawView.m */,
+				21BA86981F8F1A1D0061FE47 /* WHTopFuntionView.h */,
+				21BA86991F8F1A1D0061FE47 /* WHTopFuntionView.m */,
+				21BA869B1F8F34BC0061FE47 /* WHLineWidthView.h */,
+				21BA869C1F8F34BD0061FE47 /* WHLineWidthView.m */,
+				21BA869E1F8F37B50061FE47 /* WHLIneView.h */,
+				21BA869F1F8F37B50061FE47 /* WHLIneView.m */,
+				21BA86A11F8F4FA40061FE47 /* WHLineColorView.h */,
+				21BA86A21F8F4FA40061FE47 /* WHLineColorView.m */,
+				21BA86A41F8F50040061FE47 /* WHColorView.h */,
+				21BA86A51F8F50040061FE47 /* WHColorView.m */,
+				21BA86B61F90B9350061FE47 /* WHResultView.h */,
+				21BA86B71F90B9350061FE47 /* WHResultView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21BA86A71F8F6B6A0061FE47 /* 工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				21BA86A81F8F6B910061FE47 /* WHPickView.h */,
+				21BA86A91F8F6B910061FE47 /* WHPickView.m */,
+				21BA86AD1F8F7B7C0061FE47 /* WHTool.h */,
+				21BA86AE1F8F7B7C0061FE47 /* WHTool.m */,
+				21BA86B31F90B2C80061FE47 /* UIView+WHToast.h */,
+				21BA86B41F90B2C90061FE47 /* UIView+WHToast.m */,
+			);
+			path = "工具类";
+			sourceTree = "<group>";
+		};
+		B8B3689F915C5852119D81ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				565A3B22C8ADEFA15A5DE7D5 /* libPods-WHDrawBoard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210AD0E91F45A43D00CDC84B /* WHDrawBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210AD1011F45A43D00CDC84B /* Build configuration list for PBXNativeTarget "WHDrawBoard" */;
+			buildPhases = (
+				11F92216F9DC1C56DC72DD80 /* [CP] Check Pods Manifest.lock */,
+				210AD0E61F45A43D00CDC84B /* Sources */,
+				210AD0E71F45A43D00CDC84B /* Frameworks */,
+				210AD0E81F45A43D00CDC84B /* Resources */,
+				66F847A54CDB1091A3DFC9CF /* [CP] Embed Pods Frameworks */,
+				342559E5CC94A93EFE783280 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHDrawBoard;
+			productName = WHDrawBoard;
+			productReference = 210AD0EA1F45A43D00CDC84B /* WHDrawBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210AD0E21F45A43D00CDC84B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					210AD0E91F45A43D00CDC84B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6JT9C2SGFK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 210AD0E51F45A43D00CDC84B /* Build configuration list for PBXProject "WHDrawBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210AD0E11F45A43D00CDC84B;
+			productRefGroup = 210AD0EB1F45A43D00CDC84B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210AD0E91F45A43D00CDC84B /* WHDrawBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		210AD0E81F45A43D00CDC84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210AD0FD1F45A43D00CDC84B /* LaunchScreen.storyboard in Resources */,
+				21BA86AC1F8F6ECF0061FE47 /* drawTitle.plist in Resources */,
+				210AD0FA1F45A43D00CDC84B /* Assets.xcassets in Resources */,
+				210AD0F81F45A43D00CDC84B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F92216F9DC1C56DC72DD80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WHDrawBoard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		342559E5CC94A93EFE783280 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHDrawBoard/Pods-WHDrawBoard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F847A54CDB1091A3DFC9CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHDrawBoard/Pods-WHDrawBoard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210AD0E61F45A43D00CDC84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BA86911F8F18BB0061FE47 /* WHMainViewController.m in Sources */,
+				21BA86A61F8F50040061FE47 /* WHColorView.m in Sources */,
+				21BA86A01F8F37B50061FE47 /* WHLIneView.m in Sources */,
+				21BA86971F8F19B00061FE47 /* WHDrawView.m in Sources */,
+				210AD0F21F45A43D00CDC84B /* AppDelegate.m in Sources */,
+				21BA86B81F90B9350061FE47 /* WHResultView.m in Sources */,
+				21BA86AA1F8F6B910061FE47 /* WHPickView.m in Sources */,
+				21BA86A31F8F4FA40061FE47 /* WHLineColorView.m in Sources */,
+				21BA869A1F8F1A1D0061FE47 /* WHTopFuntionView.m in Sources */,
+				21BA86B21F90A1FC0061FE47 /* WHTitleModel.m in Sources */,
+				21BA86B51F90B2C90061FE47 /* UIView+WHToast.m in Sources */,
+				21BA86AF1F8F7B7C0061FE47 /* WHTool.m in Sources */,
+				21BA86941F8F196E0061FE47 /* WHDrawModel.m in Sources */,
+				210AD0EF1F45A43D00CDC84B /* main.m in Sources */,
+				21BA869D1F8F34BD0061FE47 /* WHLineWidthView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		210AD0F61F45A43D00CDC84B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210AD0F71F45A43D00CDC84B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		210AD0FB1F45A43D00CDC84B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210AD0FC1F45A43D00CDC84B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		210AD0FF1F45A43D00CDC84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		210AD1001F45A43D00CDC84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		210AD1021F45A43D00CDC84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7B598993A4325C323D6A4E /* Pods-WHDrawBoard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JT9C2SGFK;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = WHDrawBoard/WHDraw.pch;
+				INFOPLIST_FILE = WHDrawBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.person.WHDrawBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		210AD1031F45A43D00CDC84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE7F829DF38902036ADA7BC /* Pods-WHDrawBoard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6JT9C2SGFK;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = WHDrawBoard/WHDraw.pch;
+				INFOPLIST_FILE = WHDrawBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.person.WHDrawBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210AD0E51F45A43D00CDC84B /* Build configuration list for PBXProject "WHDrawBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210AD0FF1F45A43D00CDC84B /* Debug */,
+				210AD1001F45A43D00CDC84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210AD1011F45A43D00CDC84B /* Build configuration list for PBXNativeTarget "WHDrawBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210AD1021F45A43D00CDC84B /* Debug */,
+				210AD1031F45A43D00CDC84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210AD0E21F45A43D00CDC84B /* Project object */;
+}

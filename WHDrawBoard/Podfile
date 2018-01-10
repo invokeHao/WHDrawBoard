@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WHDrawBoard' do
+  pod 'pop'  do
+  end
+  pod 'Masonry' do
+  end
+  pod 'MBProgressHUD'  do
+  end
+  pod 'Reveal-iOS-SDK' do	
+  end
+end
